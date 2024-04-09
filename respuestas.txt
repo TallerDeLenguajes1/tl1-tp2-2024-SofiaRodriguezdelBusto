@@ -1,0 +1,5 @@
+Ejercicio 2.f
+
+No se puede ver el archivo tp2_1_2.c desde el main porque la rama Opcion_2 nos crea una versión
+independiente del proyecto, cuyos archivos no se pueden acceder desde el main.
+
