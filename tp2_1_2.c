@@ -12,9 +12,8 @@ int main()
    srand(time(NULL));
    for(i = 0;i<N; i++)
    {
-      *puntVt = 1+rand()%100;
-      printf("%f ", *puntVt);
-      puntVt++;
+      *(puntVt+i) = 1+rand()%100;
+      printf("%f ", *(puntVt + i));
    }
    return 0;
 }
