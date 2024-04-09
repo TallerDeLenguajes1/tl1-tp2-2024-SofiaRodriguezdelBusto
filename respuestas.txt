@@ -7,3 +7,7 @@ En el primer caso nos encontrabamos sobre la rama opción 2 por lo que al usar g
 en la parte superior, como una rama de main. En cambio, cuando nos paramos en el main, el main aparece 
 en la parte de arriba de donde aparecen como puntos los commit realizados de manera que el más actual 
 está cercano al margen superior. De uno de esos puntos se observa la ramificación opción 2.
+
+Una vez que se realiza el merge, en gitk --all podemos ver que desde Opcion_2 se generan líneas hacia
+los puntos que representan los commit que se hicieron en el main. De esta manera, todos los puntos asi 
+como las ramas forman una única figura cerrada.
