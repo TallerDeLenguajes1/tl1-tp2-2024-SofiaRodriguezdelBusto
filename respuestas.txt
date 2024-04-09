@@ -3,3 +3,7 @@ Ejercicio 2.f
 No se puede ver el archivo tp2_1_2.c desde el main porque la rama Opcion_2 nos crea una versión
 independiente del proyecto, cuyos archivos no se pueden acceder desde el main.
 
+En el primer caso nos encontrabamos sobre la rama opción 2 por lo que al usar gitk --all ésta aparecia
+en la parte superior, como una rama de main. En cambio, cuando nos paramos en el main, el main aparece 
+en la parte de arriba de donde aparecen como puntos los commit realizados de manera que el más actual 
+está cercano al margen superior. De uno de esos puntos se observa la ramificación opción 2.
